@@ -11,13 +11,14 @@ int main(){
 
 
     cout <<"Fahsai: Sawadee ka...Can you tell me your name?" << "\n";
-    cout <<"?????:" ;
+    cout <<"?????: " ;
     getline(cin,name1);
     cout << "Fahsai: Wow!!! "<< name1 <<" is a really cool name." <<"\n";
     cout <<"Fahsai: I think you are an Engineering student. What is your student ID?"<<"\n" ;
-    cout << "Luke Skywalker: ";
+    cout << name1<<": ";
     cin >> ID1;
     ID1 = ID1/10000000;
+    cin.ignore();
     cout <<"Fahsai: I think you may be GEAR " << ID1-12 <<". I have a free movie ticket for you." << "\n"; 
     cout <<"Fahsai: Let's go to the cinema together!!!\n";
     cout <<"Fahsai: What movie do you want to watch?\n";
@@ -26,14 +27,14 @@ int main(){
     
 
 
-    cout <<"Fahsai: So....which day are you free to go with me?" << "\n";
+    cout <<" Fahsai: So....which day are you free to go with me?" << "\n";
     cout << name1<<": ";
     getline(cin,day1);
     cout <<"Fahsai: "<< day1 <<"....that is OK!!! I'm looking forward to watching "<< mov1 <<" with you." << "\n";
 
     cout << name1 <<": "<<name2 ;
     getline(cin,name2);
-    cout <<"Fahsai: 555+ See you " << day1 <<". Bye Bye \\(^ ^)/ \n";
+    cout <<"Fahsai: 555+ see you " << day1 <<". Bye Bye \\(^ ^)/ \n";
 
 
 
